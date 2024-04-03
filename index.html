@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coriander Player</title>
+</head>
+
+<body>
+    <section id="main-card">
+        <img id="main-card-image" src="sources/main.png" alt="首页" />
+        <div>
+            <h1>Coriander Player</h1>
+            <p>给你的音乐加点香菜🥰</p>
+            <a class="btn-link" href="#second">了解更多</a>
+            <a class="btn-link" href="https://github.com/Ferry-200/coriander_player/releases">前往下载页面</a>
+        </div>
+    </section>
+
+    <section class="card" id="second">
+        <div class="card-content">
+            <h1>完善的本地/在线歌词支持</h1>
+            <p>
+                软件支持内嵌或外挂的lrc歌词。
+                如果没有本地歌词，软件还会在QQ、Kugou、网易云三家平台中匹配歌词。
+            </p>
+        </div>
+        <img src="sources/diffrent_lyrics.png" alt="多种歌词" />
+    </section>
+    <section class="card">
+        <div class="card-content">
+            <h1>逐字歌词</h1>
+            <p>同时支持Qrc和Krc逐字歌词，帮助你把握好每个字的节奏！</p>
+        </div>
+        <img src="sources/sync_lyrics.png" alt="歌词栏" />
+    </section>
+    <section class="card">
+        <div class="card-content">
+            <h1>支持指定默认歌词</h1>
+            <p>
+                想要默认使用逐字歌词？匹配的歌词不准确？
+                没关系。去正在播放界面为歌曲指定默认歌词，软件会记住你的选择！
+            </p>
+        </div>
+        <img src="sources/select_default_lyric.png" alt="指定默认歌词" />
+    </section>
+    <section class="card">
+        <div class="card-content">
+            <h1>精美的间奏标识</h1>
+            <p>
+                在使用逐字歌词和部分lrc歌词时，软件会在进入间奏时用三个圆点的透明度变化描绘间奏进度。
+            </p>
+        </div>
+        <div id="lyric-transition-display">
+            <video src="sources/sync_lyric_transition.mp4" controls></video>
+            <video src="sources/unsync_lyric_transition.mp4" controls></video>
+        </div>
+    </section>
+    <section class="card">
+        <div class="card-content">
+            <h1>迷你歌词栏</h1>
+            <p>充分利用顶部的空白空间。想看歌词？向上扫一眼吧！</p>
+        </div>
+        <img src="sources/lyric_bar.png" alt="歌词栏" />
+    </section>
+
+    <section class="card">
+        <div class="card-content">
+            <h1>响应式设计</h1>
+            <p>三种布局方式，保证在各种屏幕大小下的优雅体验。</p>
+        </div>
+        <div class="multi-images">
+            <img src="sources/small_screen.png" alt="小屏幕" class="multi-images-item" />
+            <img src="sources/medium_screen.png" alt="中屏幕" class="multi-images-item" />
+            <img src="sources/large_screen.png" alt="大屏幕" class="multi-images-item" />
+        </div>
+    </section>
+
+    <section class="card">
+        <div class="card-content">
+            <h1>多彩主题</h1>
+            <p>随音乐封面生成的主题色和多种预设主题，带来满满的新鲜感。</p>
+        </div>
+        <div class="multi-images">
+            <img src="sources/dynamic_theme_1.png" alt="小屏幕" class="multi-images-item" />
+            <img src="sources/dynamic_theme_2.png" alt="中屏幕" class="multi-images-item" />
+            <img src="sources/dynamic_theme_3.png" alt="大屏幕" class="multi-images-item" />
+        </div>
+    </section>
+</body>
+
+</html>
